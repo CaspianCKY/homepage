@@ -1,7 +1,9 @@
 {
+  "$schema": "node_modules/wrangler/config-schema.json",
   "name": "homepage",
   "compatibility_date": "2026-05-14",
   "assets": {
-  "directory":"./dist"
+    "directory": ".",
+    "exclude": ["node_modules/**", ".git/**", ".github/**", "wrangler.jsonc"]
   }
 }
